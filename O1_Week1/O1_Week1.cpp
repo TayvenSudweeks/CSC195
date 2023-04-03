@@ -25,6 +25,7 @@ int main()
 
     int* iPtr = NULL;
     iPtr = &iVal1;
+    int iPtr2 = 3;
 
     std::cout << "\nvalue of ptr variable = " << iPtr;
     std::cout << "\n iPrt address = " << &iPtr;
